@@ -12,9 +12,12 @@ let deshortifier = new Deshortifier({ verbose: false });
 const removeReferral = (url) => {
 	return new Promise((resolve) => {
 		// use deshortifier to unshorten url
-		deshortifier.deshortify(url).then((u) => {
-			// return new url to remove all query strings
-			resolve(u.split('?')[0]);
+		deshortifier.deshortify(url).then(async (u) => {
+			// declare new url to remove all query strings
+			let newUrl = u.split('?')[0];
+
+			// return reshortened affiliate-free url
+			resolve(await reshorten(newUrl));
 		});
 	});
 };
