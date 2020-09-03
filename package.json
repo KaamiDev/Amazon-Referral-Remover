@@ -1,19 +1,20 @@
 {
-  "name": "amazon-referral-remover",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.20.0",
-    "deshortify": "^1.0.4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+	"name": "amazon-referral-remover",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.20.0",
+		"deshortify": "^1.0.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }
