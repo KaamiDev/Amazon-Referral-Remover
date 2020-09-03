@@ -1,3 +1,6 @@
+// configure env variables
+require('dotenv').config();
+
 // require modules
 const Deshortifier = require('deshortify');
 const axios = require('axios');
