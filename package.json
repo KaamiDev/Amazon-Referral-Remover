@@ -12,7 +12,8 @@
 	"license": "ISC",
 	"dependencies": {
 		"axios": "^0.20.0",
-		"deshortify": "^1.0.4"
+		"deshortify": "^1.0.4",
+		"dotenv": "^8.2.0"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.4"
