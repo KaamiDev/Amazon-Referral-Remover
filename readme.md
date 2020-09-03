@@ -3,8 +3,8 @@
 Easily remove referral links from Amazon URL's
 
 
-### How to use:
-#### Async:
+
+### Use with Async:
 ```
 (async() => {
     try {
@@ -20,7 +20,7 @@ Easily remove referral links from Amazon URL's
 })();
 ```
 
-### Promises:
+### Use with Promises:
 ```
 removeReferral(url).then((newUrl) => {
 
