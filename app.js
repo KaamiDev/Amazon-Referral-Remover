@@ -24,7 +24,7 @@ const reshorten = (url) => {
 			.post(
 				'https://api-ssl.bitly.com/v4/shorten',
 				{
-					long_url: newUrl,
+					long_url: url,
 					domain: 'bit.ly',
 					group_guid: process.env.GROUP_GUID
 				},
