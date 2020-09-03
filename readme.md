@@ -5,7 +5,7 @@ Easily remove referral links from Amazon URL's
 
 
 ### Use with Async:
-```
+```javascript
 (async() => {
     try {
         let newUrl = removeReferral(url);
@@ -21,7 +21,7 @@ Easily remove referral links from Amazon URL's
 ```
 
 ### Use with Promises:
-```
+```javascript
 removeReferral(url).then((newUrl) => {
 
     // logs affiliate-free url
