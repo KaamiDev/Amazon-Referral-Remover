@@ -5,7 +5,7 @@ const axios = require('axios');
 // create new deshortifier instance
 let deshortifier = new Deshortifier({ verbose: false });
 
-// export remove function
+// declare remove function
 const removeReferral = (url) => {
 	return new Promise((resolve) => {
 		// use deshortifier to unshorten url
@@ -16,4 +16,5 @@ const removeReferral = (url) => {
 	});
 };
 
+// export remove function
 module.exports = removeReferral;
