@@ -8,7 +8,7 @@ Easily remove referral links from Amazon URL's
 ```javascript
 (async() => {
     try {
-        let newUrl = removeReferral(url);
+        let newUrl = await removeReferral(url);
 
         // logs affiliate-free url
         console.log(newUrl);
